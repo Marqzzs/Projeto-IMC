@@ -3,7 +3,7 @@
 ## Descrição
 Este é um projeto simples de uma calculadora de Índice de Massa Corporal (IMC) com armazenamento local. Ele permite aos usuários calcular seu IMC, salvar os resultados e visualizá-los em uma tabela.
 
-![Exemplo de Interface](./assets/screenshot.png)
+![Exemplo de Interface](./assets/tela-usuario.png)
 
 ## Como Usar
 1. Abra o arquivo HTML no seu navegador.
@@ -15,20 +15,12 @@ Este é um projeto simples de uma calculadora de Índice de Massa Corporal (IMC)
 ## Screenshots
 Aqui estão algumas capturas de tela do projeto:
 
-1. ![Interface do Usuário](./assets/screenshot.png)
-2. ![Resultados da Calculadora](./assets/screenshot2.png)
-3. ![Exemplo de Armazenamento Local](./assets/screenshot3.png)
+1. ![Interface do Usuário](./assets/tela-usuario.png)
+2. ![JavaScript](./assets/code7.png)
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull (pull requests) para melhorar o projeto.
 
 ## Links
 - [Repositório GitHub](https://github.com/Marqzzs/Projeto-IMC)
 - [GitHub Pages](https://seu-usuario.github.io/nome-do-repositorio/)
 
-## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](./LICENSE) para obter detalhes.
-
----
-
-Feito por [Seu Nome](https://github.com/seu-usuario)
+Feito por [Marqz](https://github.com/Marqzzs)
