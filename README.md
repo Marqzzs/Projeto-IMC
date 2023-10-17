@@ -21,6 +21,6 @@ Aqui estão algumas capturas de tela do projeto:
 
 ## Links
 - [Repositório GitHub](https://github.com/Marqzzs/Projeto-IMC)
-- [GitHub Pages](https://seu-usuario.github.io/nome-do-repositorio/)
+- [Vercel](https://projeto-imc-tan.vercel.app/)
 
 Feito por [Marqz](https://github.com/Marqzzs)
