@@ -28,6 +28,12 @@ function calcular(e) {
   const imc = calcularImc(altura, peso);
   const situacao = retornaSituacao(imc);
 
+  const dt = new Date();
+  const dia = dt.getDate() < 10 ? `0${dt.getDate()}` : dt.getDate();
+  const mes = dt.getMonth() + 1;
+  const ano = dt.getFullYear();
+  const data = dia + mes + ano;
+
   // Cria um objeto "pessoa" com as informações coletadas
   let pessoa = {};
   pessoa.nome = nome;
@@ -35,6 +41,7 @@ function calcular(e) {
   pessoa.peso = peso;
   pessoa.imc = imc;
   pessoa.situacao = situacao;
+  pessoa.data = data;
 
   // Adiciona o objeto "pessoa" ao array "arrPessoas"
   arrPessoas.push(pessoa);
@@ -78,6 +85,7 @@ function listarPessoas() {
                     <td>${arrPessoas[i].peso}</td>
                     <td>${arrPessoas[i].imc.toFixed(2)}</td>
                     <td>${arrPessoas[i].situacao}</td>
+                    <td>${arrPessoas[i].data}</td>
                     </tr>`;
   }
 
